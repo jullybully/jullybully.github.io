@@ -1,0 +1,2 @@
+# jullybully.github.io
+ Hello there! I'm excited to present my portfolio projects that showcase my skills in HTML5, CSS3, JavaScript, and React.  Starting now, I will dedicate 96 hours to working on portfolio projects that range from simple, responsive websites built with HTML5 and CSS3 to more complex applications utilizing React and APIs for CRUD operations.  I believe that through these projects, I will be able to demonstrate my attention to detail, problem-solving skills, and my ability to create visually appealing and user-friendly interfaces. 
