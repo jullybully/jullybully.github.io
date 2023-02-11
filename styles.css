@@ -12,6 +12,7 @@
 
 :root {
     --text-black: black;
+    --primary: rgb(4, 2, 32);
 }
 
 /* Typography, Width */
@@ -45,6 +46,11 @@ h1 {
     margin-left: auto;
 }
 
+.width-padding {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 /* Navigation */
 
 .navigation-container {
@@ -71,15 +77,14 @@ h1 {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: 15% 75%;
+    grid-gap: 1em;
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.portfolio-container {
-    max-width: 960px;
+.center {
     margin-right: auto;
     margin-left: auto;
 }
@@ -91,4 +96,27 @@ h1 {
     .portfolio {
       grid-template-columns: 1fr 1fr;
     }
+  }
+
+  .portfolio-images {
+    width: 100%;
+    max-width: 475px;
+    height: auto;
+  }
+
+  .portfolio-button {
+    padding: 7px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--primary);
+  }
+
+  .portfolio-button:hover {
+    background: white;
+    color: black;
+    transition: all 0.15s ease-in-out 0s;
+    border: 2px solid #000000;
   }
