@@ -19,11 +19,9 @@
 
 body {
     color: black;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    animation: gradient 15s ease infinite;
+    background-color: linear-gradient(to right top, #e5e5e5, #e7e8eb, #e7ebf1, #e5eff7, #e2f3fb);
 }
 
 
